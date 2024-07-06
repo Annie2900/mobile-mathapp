@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:src="@drawable/equal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="58sp"
+                android:paddingTop="28sp"
+                android:text=""
+                android:textColor="@android:color/transparent"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50sp"
+                android:paddingBottom="30sp"
+                android:text=""
+                android:textColor="@android:color/transparent"/>
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="30sp"
+                android:paddingTop="50sp"
+                android:text=""
+                android:textColor="@android:color/transparent"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="18sp"
+                android:paddingBottom="18sp">
+
+                <ImageView
+                    android:id="@+id/imageRight1"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/zero" />
+
+                <ImageView
+                    android:id="@+id/imageRight2"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/zero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="18sp">
+
+                <ImageView
+                    android:id="@+id/imageRight3"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/zero" />
+
+                <ImageView
+                    android:id="@+id/imageRight4"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/zero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="18sp">
+
+                <ImageView
+                    android:id="@+id/imageRight5"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/zero" />
+
+                <ImageView
+                    android:id="@+id/imageRight6"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/zero" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5sp">
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_btn"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:backgroundTint="@color/yellow"/>
+
+        <Button
+            android:id="@+id/giveup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/giveUp_btn"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/red"/>
+
+    </LinearLayout>
+
+</LinearLayout>

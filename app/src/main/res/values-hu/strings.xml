@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vizsga</string>
+    <string name="submit_btn">Beküld</string>
+    <string name="giveUp_btn">Felad</string>
+    <string name="result">És az eredmény…</string>
+    <string name="congrats">Gratulálunk, sikerült!</string>
+    <string name="betterLuck">Legközelebb több szerencsét!</string>
+    <string name="back">Vissza</string>
+    <string name="language">Nyelv</string>
+    <string name="english">Angol</string>
+    <string name="hungarian">Magyar</string>
+    <string name="rateUs">Értékelj minket!</string>
+    <string name="button">Gomb</string>
+    <string name="giveUp">Sajnálom, nem sikerült kitalálni. A válasz: %1$d</string>
+</resources>

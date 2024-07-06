@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="submit_btn">Submit</string>
+    <string name="giveUp_btn">Give up</string>
+    <string name="result">And the result is…</string>
+    <string name="congrats">Congratulations, you passed!</string>
+    <string name="betterLuck">Better luck next time!</string>
+    <string name="back">Back</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="hungarian">Hungarian</string>
+    <string name="rateUs">Rate us!</string>
+    <string name="button">Button</string>
+    <string name="giveUp">Sorry, you couldn\'t figure out. The answer was: %1$d</string>
+</resources>
